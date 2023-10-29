@@ -1,16 +1,16 @@
-### Hi there 👋
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Kolam Ikan Nila Monitoring</title>
+</head>
+<body>
+  <h1>Sistem Monitoring Kolam Air Ikan Nila</h1>
 
-<!--
-**Hasan2522/Hasan2522** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+  <h2>Data Sensor</h2>
+  <p>Dissolved Oxygen: <span id="doValue">Loading...</span></p>
+  <p>pH: <span id="phValue">Loading...</span></p>
+  <p>TDS: <span id="tdsValue">Loading...</span></p>
 
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+  <script src="main.js"></script>
+</body>
+</html>
